@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/estilo1.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Menu</h2>
+        <ul>
+            <li><a href="#">Opção 1</a></li>
+            <li><a href="#">Opção 2</a></li>
+            <li><a href="#">Opção 3</a></li>
+            <li><a href="#">Opção 4</a></li>
+            <li><a href="#">Opção 5</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <h1>Bem-vindo ao Dashboard</h1>
+        <label for="mediaUpload" class="upload-label">
+            <img src="img/upload.png" alt="Upload">
+        </label>
+        <input type="file" id="mediaUpload" accept="image/*,video/*" style="display:none;">
+        <div id="mediaContainer"></div>
+    </div>
+    <div id="imageModal" class="modal">
+        <span id="modalClose" class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div id="caption"></div>
+    </div>
+    <script src="js/script2.js"></script>
+</body>
+</html>
